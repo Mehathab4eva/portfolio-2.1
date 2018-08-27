@@ -1,0 +1,26 @@
+.aboutPic{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+
+}
+
+#about {
+	
+	position: absolute;
+	top: 35vh;
+	left: 25vw;
+	display: block;
+	transform: translate(50%);
+	font-family: 'Roboto', sans-serif;
+	
+	
+	color: #fff;
+	width: 50vw;
+	min-width: 200px;
+	background-color: #0000001a;
+	padding-left:  25px;
+	border-left: 6px solid #5eff40;
+	z-index: 2;
+
+}
