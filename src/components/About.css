@@ -1,40 +1,59 @@
+
+
+#about {
+	
+	margin:20vh auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	color: #fff;
+	width: 50vw;
+	
+	min-width: 280px;
+	background-color: #0000001a;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
 .aboutPic{
 	height: 250px;
 	width: 250px;
 	border: 2px solid #5eff40;
 	border-radius: 50%;
-	margin:0 auto;
-	
 
-}
-
-#about {
-	
-	margin:20vh auto;
-	
-	 
-	display: block;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.1em;
 
 	
-	
-	color: #fff;
-	width: 50vw;
-	/*width: 200px;*/
-	text-align: center;
-	min-width: 280px;
-	background-color: #0000001a;
-	
-	z-index: 2;
 
 }
 
 #about > p {
 	border-left: 6px solid #5eff40;
 	padding: 15px;
+	text-align: justify;
 }
 
-#about > h2 {
-	text-align: left;
+h2 {
+	align-self: flex-start;
+	color: #5eff40;
+}
+
+.socialLogo{
+	height: 25px;
+	width: 100px;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.badges {
+	width: 300px;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 15px auto;
+
+
 }
