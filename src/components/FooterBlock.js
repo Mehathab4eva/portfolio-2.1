@@ -3,7 +3,7 @@ import 'animate.css';
 
 const FooterBlock = ()=> {
 	return (
-		<div id='footer' className="animated lightSpeedIn delay-1s">
+		<div id='footer' className="animated lightSpeedIn">
 				&copy; 2018 Mehathab Shaik | All rights reserved
 
 		</div>

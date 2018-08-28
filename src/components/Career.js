@@ -32,20 +32,20 @@ constructor() {
 		edu: [
 		
 				{
-						course 		: 'Coding Bootcamp',
-						institution : 'University of Utah',
+						position 	: 'Coding Bootcamp',
+						workplace	: 'University of Utah',
 						duration	: "Sept 2017 – Apr 2018",
 						imgURL		: './images/ULogo.png' 
 					},
 					{
-						course 		: 'MS Information Systems',
-						institution : 'Stevens Henager College',
+						position 	: 'MS Information Systems',
+						workplace	: 'Stevens Henager College',
 						duration	: "Sept 2015 – Nov 2016",
 						imgURL		: './images/shcLogo.JPG'
 					},
 					{
-						course 		: 'BSc Math Phy Comp',
-						institution : 'Andhra University',
+						position 	: 'BSc Math Phy Comp',
+						workplace 	: 'Andhra University',
 						duration	: "June 2006 – Apr 2009",
 						imgURL		: './images/ALogo.JPG'
 					}
@@ -62,9 +62,9 @@ render() {
 
 			<div>
 				
-				<div className="animated lightSpeedIn" id='careerContainer'>
+				<div className="animated slideInLeft" id='careerContainer'>
 
-				<h2>Work</h2>
+				<h2>WORK</h2>
 
 			{
 				this.state.work.map((work, i) =>
@@ -82,6 +82,31 @@ render() {
 						)
 				})	
 			}
+
+			</div>
+
+			<div className="animated slideInRight" id='eduContainer'>
+
+				
+
+			{
+				this.state.edu.map((edu, i) =>
+				{
+					return (
+							<CareerCard 
+								key={i}
+								workplace={edu.workplace}
+								position={edu.position}
+								duration={edu.duration}
+								workLocation={edu.workLocation}
+								imgURL={edu.imgURL}
+								 />
+								
+						)
+				})	
+			}
+
+			<h2>EDU</h2>
 
 			</div>
 			</div>
