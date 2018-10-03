@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
+    "nodemailer": "^4.6.8",
     "particles.js": "^2.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

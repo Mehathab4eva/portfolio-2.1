@@ -9,22 +9,15 @@ constructor() {
 		work : [
 				{
 					workplace: 'Care Medical LLC',
-					position: 'Blockchain Mining Manager',
-					duration: 'Mar 2017 - Current',
+					position: 'Full Stack MERN Developer',
+					duration: 'Sept 2015 - Jul 2018',
 					workLocation: 'Price, UT',
 					imgURL: "./cmLogo.png"
 				},
 				{
-					workplace: 'Data Care LLC',
-					position: 'Assistant Manager',
-					duration: 'Sept 2015 - Mar 2017',
-					workLocation: 'Salt Lake City, UT',
-					imgURL: "./dcLogo.png"
-				},
-				{
 					workplace: 'Data Care (India)',
-					position: 'Lead Billing Specialist',
-					duration: 'June 2013 - Sept 2015',
+					position: 'JR Web Developer',
+					duration: 'Apr 2013 - Aug 2015',
 					workLocation: 'Andhra Pradesh, India',
 					imgURL:'./dcLogo.png'
 				}
@@ -62,7 +55,7 @@ render() {
 
 			<div>
 				
-				<div className="animated slideInLeft" id='careerContainer'>
+				<div className="animated slideInRight" id='careerContainer'>
 
 				<h2>WORK</h2>
 
@@ -85,7 +78,7 @@ render() {
 
 			</div>
 
-			<div className="animated slideInRight" id='eduContainer'>
+			<div className="animated slideInLeft" id='eduContainer'>
 
 				
 
